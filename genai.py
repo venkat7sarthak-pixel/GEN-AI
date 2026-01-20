@@ -1,8 +1,8 @@
 import streamlit as st
 from groq import Groq
 
-st.set_page_config("PragyanAI Content Generator", layout="wide")
-st.title("📢 PragyanAI – Content Generator")
+st.set_page_config("Manchester united", layout="wide")
+st.title("why manchester is red?")
 st.image("download.png",width=250)
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
